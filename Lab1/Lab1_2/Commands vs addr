@@ -1,0 +1,12 @@
+ADDR: \xd8\xdc\xff\xff
+Command: env - gdb --args lab1_2 $(python2.7 exploit.py)
+and unset LINES and COLUMNS all variables
+
+
+ADDR: \xa8\xcf\xff\xff
+
+gdb --args lab1_2 $(python2.7 exploit.py)
+
+ADDR: \xc8\xcf\xff\xff
+Command: 
+and unset LINES, COLUMNS and _
